@@ -44,7 +44,7 @@ In this task, you will set up the Document Intelligence environment in Azure so 
 
 1. On the **Document Intelligence Studio** page, scroll to **Custom models** and click **Get started** under **Custom extraction model**. 
 
-   ![Alt text](images2/automate-image4.png)
+   ![Alt text](images2/L1T1S5.png)
 
    >**Note:** If prompted, log in using the below Azure credentials.
 
@@ -103,7 +103,7 @@ In this task, you will upload and label training documents to create a custom mo
 
      ![Browse for files](images/106.png)
 
-   **>Note:** If the information pop-up appears on the screen (such as Upload documents or Let us know how we're doing), please close the pop-up by clicking the **X** before continuing with the next step.
+   >**Note:** If the information pop-up appears on the screen (such as Upload documents or Let us know how we're doing), please close the pop-up by clicking the **X** before continuing with the next step.
 
 1. In the file explorer, enter the path `C:\LabFiles\Train` **(1)** and press **Enter**, select all **PDF files (2)** (Invoice_1 to Invoice_5) in the folder, then click **Open (3)**.
 
@@ -158,6 +158,8 @@ In this task, you will upload and label training documents to create a custom mo
 1. Wait until the model status shows **Succeeded**. Once it does, select the model **model (1)** you created and click on **Test (2)**.
 
      ![select-models](images/doc19.png)
+     ![select-models](images/L1T2S12.png)
+
 
 1. On the **Test model** window, click on **Browse for files**. 
 
@@ -167,9 +169,9 @@ In this task, you will upload and label training documents to create a custom mo
 
       ![select-models](images/stu6upd.png)
 
-1. Once uploaded, select a test document and click **Run analysis**. On the right-hand side, you will see the detected fields **Organization** and **Address** along with their confidence scores.
+1. Once uploaded, select a test document **(1)** and click **Run analysis(2)**. On the right-hand side, you will see the detected fields **Organization** and **Address** along with their confidence scores.
 
-   ![Name](images/stu7-upd.png)
+   ![Name](images/L1T2S15.png)
    
 ## Task 3: Creation of Function App
 
