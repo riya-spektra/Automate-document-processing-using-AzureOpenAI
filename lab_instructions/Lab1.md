@@ -157,9 +157,7 @@ In this task, you will upload and label training documents to create a custom mo
    
 1. Wait until the model status shows **Succeeded**. Once it does, select the model **model (1)** you created and click on **Test (2)**.
 
-     ![select-models](images/doc19.png)
-     ![select-models](images/L1T2S12.png)
-
+    ![](images/doc19.png)
 
 1. On the **Test model** window, click on **Browse for files**. 
 
@@ -180,6 +178,8 @@ In this task, you will be using Azure Functions to process documents that are up
 1. Open **Visual Studio Code** on the **Lab VM** by double-clicking the icon on the desktop.
 
    ![select-models](images/vs-code-1.png)
+
+   >**Note:** If any pop-up appears, **Continue without signing in** and close the pop-up window.
 
 1. In Visual Studio Code, navigate to the **File (1)** from the top menu bar and select **Open Folder... (2)**.
 
@@ -618,10 +618,10 @@ In this task, you will connect Azure AI Search to Blob Storage to index analyzed
 1. Provide the following values and click on **Next(6)**
    
       - Subscription: Select the **Default subscription (1)**.
-      - Storage account: <inject key="Deployment ID" enableCopy="false"/> 
-      - Parsing Mode: **JSON (3)**.
-      - Blob container: **output(4)**
-      - Blob storage: **input(5)**
+      - Storage account: storage <inject key="Deployment ID" enableCopy="false"/> **(2)** 
+      - Blob container: **output (3)**
+      - Blob storage: **input (4)**
+      - Parsing Mode: **JSON (5)**
 
         ![](images2/L1T5S6.png)
 
@@ -633,16 +633,16 @@ In this task, you will connect Azure AI Search to Blob Storage to index analyzed
 
       ![](images2/L1T5S8.png)
 
-1. Ensure that all fields are marked as **Retrievable(1)** and **Searchable.(2)** and click on **Save(3).**
+1. Ensure that all fields are marked as **Retrievable(1)** and **Searchable(2)** and click on **Save(3).**
 
       ![](images2/L1T5S8.png)
 
 
-1. On the **Preview Mappings** page, expand **analyzeResult (1)** > **documents (2)** > **fields (3)**, then expand **Organization (5)** and check the configure fields for **type, valueString, and content (5)**; do the same for **Address (4)** fields **type, valueString, and content (7)** .
+1. On the **Preview Mappings** page, expand **analyzeResult (1)** > **documents (2)** > **fields (3)**, then expand **Address (4)** and check the configure fields for **type, valueString, and content (5)**; do the same for **Organization (5)** fields **type, valueString, and content (7)** .
 
-      ![](images2/L1T5S10i.png)
+   ![](images2/L1T5S10i.png)
 
-      ![](images2/L1T5S10ii.png)
+   ![](images2/L1T5S10ii.png)
       
 1. Click on **Ellipse(3)** and **Configure field(4)** and enable **Retrievable** and **Searchable** options and click save for all fields mentioned in above steps. Take a refrence from given image. For **Address(1)**- **valuestring(2)** - **configure field(4).** After configuring fields for all click on Next.
 
@@ -656,7 +656,7 @@ In this task, you will connect Azure AI Search to Blob Storage to index analyzed
 
    ![](images/L1T5S12.png)
 
-1. On the Review and Create page, enter the Ojects name prefix as azureblob-index (1) and click on Create (2) at the bottom
+1. On the **Review and Create** page, enter the Ojects name prefix as azureblob-index (1) and click on Create (2) at the bottom
 
    ![](images/L1T5S13.png)
 
