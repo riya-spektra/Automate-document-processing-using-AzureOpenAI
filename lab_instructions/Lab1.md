@@ -629,11 +629,11 @@ In this task, you will connect Azure AI Search to Blob Storage to index analyzed
      
       ![](images2/L1T5S7.png)
 
-1. On the **Preview Mappings** page, click on **ellipse(1)** and then select **Configure field.(2)**.
+1. On the **Preview Mappings** page, click on **ellipse (1)** and then select **Configure field. (2)**
 
       ![](images2/L1T5S8.png)
 
-1. Ensure that all fields are marked as **Retrievable(1)** and **Searchable(2)** and click on **Save(3).**
+1. Ensure that all fields are marked as **Retrievable (1)** and **Searchable (2)** and click on **Save (3).**
 
       ![](images2/L1T5S8.png)
 
@@ -644,7 +644,7 @@ In this task, you will connect Azure AI Search to Blob Storage to index analyzed
 
    ![](images2/L1T5S10ii.png)
       
-1. Click on **Ellipse(3)** and **Configure field(4)** and enable **Retrievable** and **Searchable** options and click save for all fields mentioned in above steps. Take a refrence from given image. For **Address(1)**- **valuestring(2)** - **configure field(4).** After configuring fields for all click on Next.
+1. Click on **Ellipse (3)** and **Configure field (4)** and enable **Retrievable** and **Searchable** options and click save for all fields mentioned in above steps. Take a refrence from given image. For **Address (1)**- **valuestring (2)** - **configure field (4).** After configuring fields for all click on Next.
 
    >**Note:** Configure **Retrievable** and **Searchable** for confidence , bounding regions as well for all fields.
    
