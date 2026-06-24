@@ -52,7 +52,7 @@ In this task, you will upload Porsche's owner manuals (Taycan, Panamera, Cayenne
       
     - Click on **Turn on CORS (4)** when prompted.
 
-         ![](images2/2/t2s2a.png)
+      ![](images2/2/t2s2a.png)
 
       > **Note:** If you encounter any issues while enabling CORS, please follow the steps below :
 

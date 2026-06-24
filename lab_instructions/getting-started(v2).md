@@ -48,7 +48,7 @@ Welcome to your Automate Document Processing using Azure AI Document Intelligenc
  
 Once you're ready to dive in, your virtual machine and guide will be right at your fingertips within your web browser.
 
-  ![OpenAI](images2/GS-0.png)
+  ![OpenAI](images/image-01.png)
  
 ## Virtual Machine & Lab Guide
 
@@ -58,19 +58,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-  ![OpenAI](images2/gs.png)
+  ![OpenAI](images/image-022.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-  ![OpenAI](images2/split.png)
+  ![OpenAI](images/image-021.png)
 
 ## Managing Your Virtual Machine
  
 Feel free to **Start, Restart,** or **Stop** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-  ![OpenAI](images2/res.png)
+  ![OpenAI](images/image-023.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
